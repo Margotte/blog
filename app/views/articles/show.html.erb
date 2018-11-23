@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 
+<%= cl_image_tag @article.photo, height: 300, width: 400, crop: :fill, alt: "Slovenia" %>
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
